@@ -1,0 +1,12 @@
+Things to do:
+
+
+Known issues:
+
+
+Other notes:
+run client just like worker
+then turn the bound parameters into "RANGE XX YY" and send to server
+when reading from server:
+use count = read(...)
+then if count < size, there's no more to read
